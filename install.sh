@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./scripts/cp-config.sh
+sudo sh ./scripts/cp-config.sh
