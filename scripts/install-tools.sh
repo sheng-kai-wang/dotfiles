@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade
-sudo apt install wget git curl vim tree neofetch -y
+sudo apt install wget git curl vim tree neofetch htop -y
 
 # install docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
