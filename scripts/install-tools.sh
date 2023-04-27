@@ -28,4 +28,8 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
 sudo docker run --rm hello-world
+
+# docker no sudo
+sudo groupadd docker
 sudo usermod -aG docker $USER
+newgrp docker 
