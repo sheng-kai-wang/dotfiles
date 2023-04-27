@@ -26,5 +26,6 @@ sudo docker run hello-world
 # allow docker without sudo
 sudo groupadd docker
 sudo usermod -aG docker $USER
-newgrp docker 
+newgrp docker
+
 docker --version
