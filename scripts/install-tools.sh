@@ -9,6 +9,8 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo rm -rf /var/lib/docker
 sudo rm -rf /var/lib/containerd
 
+sudo mkdir /var/lib/docker
+
 sudo apt-get update
 
 sudo apt-get install \
