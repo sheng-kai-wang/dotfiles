@@ -23,7 +23,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 sudo docker run hello-world
 
-# docker no sudo
+# allow docker without sudo
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker 
